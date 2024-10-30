@@ -1,9 +1,9 @@
 package models
 
 type Todo struct {
-	ID          int
-	Title       string
-	Description string
+	ID          int    `json:"id"`
+	Title       string `json:"title"`
+	Description string `json:"description"`
 }
 
 type User struct {
